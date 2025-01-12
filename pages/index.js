@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getWeather } from './lib/weather';
-import { getFinance } from './lib/finance';
+import { getWeather } from '../lib/weather';
+import { getFinance } from '../lib/finance';
 import DashboardLayout from '@/components/DashboardLayout';
 import { Line, Bar } from 'react-chartjs-2'; // Import Line and Bar charts
 import { Chart as ChartJS, Title,PointElement, Tooltip, Legend, LineElement, BarElement, CategoryScale, LinearScale } from 'chart.js';

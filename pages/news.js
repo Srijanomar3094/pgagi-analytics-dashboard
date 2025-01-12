@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getNews } from './lib/news';
+import { getNews } from '../lib/news';
 import DashboardLayout from '@/components/DashboardLayout';
 
 const NewsPage = () => {

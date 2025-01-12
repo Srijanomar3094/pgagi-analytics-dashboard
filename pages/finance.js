@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getFinance } from './lib/finance'; // Ensure this supports fetching data for multiple stocks
+import { getFinance } from '../lib/finance'; // Ensure this supports fetching data for multiple stocks
 import DashboardLayout from '@/components/DashboardLayout';
 
 const FinancePage = () => {

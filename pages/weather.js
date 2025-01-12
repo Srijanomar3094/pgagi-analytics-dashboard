@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getWeather } from "./lib/weather"; // Ensure this function supports fetching weather for a city
+import { getWeather } from "../lib/weather"; // Ensure this function supports fetching weather for a city
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import DashboardLayout from '@/components/DashboardLayout';

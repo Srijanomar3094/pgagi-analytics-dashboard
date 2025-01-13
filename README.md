@@ -49,4 +49,6 @@ API Routes
 
 Deployment
 
+Deployed at:- https://analytics-dashboard.asklms.in
+Video :- https://www.loom.com/share/e488dec319f94139a963d31ac754a3d3?sid=850d7636-d176-4cae-a99d-ca8d169284d9
 Feel free to report issues or contribute via pull requests.

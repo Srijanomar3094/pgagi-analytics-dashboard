@@ -7,7 +7,7 @@ const NewsPage = () => {
 
   useEffect(() => {
     const fetchNews = async () => {
-      const data = await getNews(); // Fetch news for the US by default
+      const data = await getNews(); 
       setArticles(data);
     };
     fetchNews();

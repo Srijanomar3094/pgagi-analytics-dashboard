@@ -23,8 +23,8 @@ const Weather = () => {
   const [weatherData, setWeatherData] = useState([]);
   const [darkMode, setDarkMode] = useState(false);
 
-  const API_KEY = 'd84df071ad886a26e3f1aacb7bc8c2bd';
-  const GEODB_API_KEY = 'eb7c794506msha9a8b1d7f228b4ep135bbejsn82c0a2198e87';
+  const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
+  const GEODB_API_KEY = process.env.NEXT_PUBLIC_GEODB_API_KEY;
 
   const fetchCurrentWeather = async (city) => {
     try {
